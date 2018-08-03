@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    height: 50px;
+    background-color: yellow;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.content {
+    padding: 10px;
+}
+
+table, th, td {
+    text-align: center;
+}
+
+td > span {
+    font-size: 12px;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.showDetails {
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.searchBox {
+    height: 50px;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    padding: 20px;
+}
